@@ -1,4 +1,5 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import Hashtag from "../assets/hashtag.png";
 
 function Intro() {
@@ -11,13 +12,15 @@ function Intro() {
             Viví la experiencia de profesionalizarte técnicamente, distintos
             cursos de perfeccionamiento disponibles, consultanos!
           </h5>
-          <Button
-            variant="outline-info"
-            size="lg"
-            className="button d-block mx-auto"
-          >
-            Contactanos!
-          </Button>
+          <Link style={{ textDecoration: "none" }} to="/contacto">
+            <Button
+              variant="outline-info"
+              size="lg"
+              className="button d-block mx-auto"
+            >
+              Contactanos!
+            </Button>
+          </Link>
         </Col>
         <Col>
           <img className="heightIntro" src={Hashtag} alt="hashtag" />

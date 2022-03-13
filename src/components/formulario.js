@@ -93,22 +93,38 @@ function Formulario() {
 
           <ul class="social-media-list">
             <li>
-              <a href="#" target="_blank" class="contact-icon">
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="contact-icon"
+              >
                 <GrInstagram />
               </a>
             </li>
             <li>
-              <a href="#" target="_blank" class="contact-icon">
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                class="contact-icon"
+              >
                 <GrTwitter />
               </a>
             </li>
             <li>
-              <a href="#" target="_blank" class="contact-icon">
+              <a
+                href="https://www.facebook.com/emete.mt.10"
+                target="_blank"
+                class="contact-icon"
+              >
                 <GrFacebookOption />
               </a>
             </li>
             <li>
-              <a href="#" target="_blank" class="contact-icon">
+              <a
+                href="https://www.youtube.com/"
+                target="_blank"
+                class="contact-icon"
+              >
                 <GrYoutube />
               </a>
             </li>

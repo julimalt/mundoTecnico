@@ -4,6 +4,7 @@ import {
   GrFacebookOption,
   GrYoutube,
 } from "react-icons/gr";
+import { Link } from "react-router-dom";
 
 import { Button } from "react-bootstrap";
 
@@ -62,14 +63,16 @@ function Footer() {
 
             <div class="col-xs-12 col-sm-6 col-md-3">
               <div class="widget no-box">
-                <Button
-                  variant="outline-info"
-                  size="lg"
-                  className="button d-block mx-auto"
-                  style={{ marginTop: "3em" }}
-                >
-                  Contactanos!
-                </Button>
+                <Link style={{ textDecoration: "none" }} to="/contacto">
+                  <Button
+                    variant="outline-info"
+                    size="lg"
+                    className="button d-block mx-auto"
+                    style={{ marginTop: "3em" }}
+                  >
+                    Contactanos!
+                  </Button>
+                </Link>
               </div>
             </div>
 
