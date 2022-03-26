@@ -11,12 +11,12 @@ filter: brightness(0.7);}
 
 .heightIntro{
   height: 70vh;
-  padding-left: 6em;
+  width: 100%;
 }
 
 .heightPropaganda{
   height: 50vh;
-  padding-left: 10em;
+  width: 100%;
 }
 
 .carousel-color{
