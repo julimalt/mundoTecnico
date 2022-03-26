@@ -4,6 +4,7 @@ import AireAcondicionadoFamiliar from "../assets/aire-acondicionado-familiar.web
 import Electronica from "../assets/electronica-linea-blanca.webp";
 
 import { Carousel, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function Cursos() {
   return (
@@ -16,9 +17,11 @@ function Cursos() {
         />
         <Carousel.Caption>
           <h3 className="carousel-color">CURSO DE REFRIGERACIÓN COMERCIAL</h3>
-          <Button variant="outline-info" size="lg" className="button">
-            Quiero saber más
-          </Button>
+          <Link to="*">
+            <Button variant="outline-info" size="lg" className="button">
+              Quiero saber más
+            </Button>
+          </Link>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -32,9 +35,11 @@ function Cursos() {
           <h3 className="carousel-color">
             CURSO DE ELECTRICIDAD EN LA REFRIGERACION
           </h3>
-          <Button variant="outline-info" size="lg" className="button">
-            Quiero saber más
-          </Button>
+          <Link to="*">
+            <Button variant="outline-info" size="lg" className="button">
+              Quiero saber más
+            </Button>
+          </Link>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -48,9 +53,11 @@ function Cursos() {
           <h3 className="carousel-color">
             CURSO DE AIRE ACONDICIONADO FAMILIAR
           </h3>
-          <Button variant="outline-info" size="lg" className="button">
-            Quiero saber más
-          </Button>
+          <Link to="*">
+            <Button variant="outline-info" size="lg" className="button">
+              Quiero saber más
+            </Button>
+          </Link>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -62,9 +69,11 @@ function Cursos() {
         />
         <Carousel.Caption>
           <h3 className="carousel-color">CURSO ELECTRÓNICA LINEA BLANCA</h3>
-          <Button variant="outline-info" size="lg" className="button">
-            Quiero saber más
-          </Button>
+          <Link to="*">
+            <Button variant="outline-info" size="lg" className="button">
+              Quiero saber más
+            </Button>
+          </Link>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

@@ -1,23 +1,26 @@
 import { Navbar, Container, Nav, NavDropdown, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function NavbarComponent() {
   return (
     <Navbar collapseOnSelect expand="lg" variant="dark" sticky="top">
       <Container>
-        <Navbar.Brand href="#home">
-          <img
-            alt=""
-            src="/logo.png"
-            width="30"
-            heightCursos="35"
-            className="d-inline-block align-top"
-          />
-          MUNDO TÉCNICO
-        </Navbar.Brand>
+        <Link style={{ textDecoration: "none" }} to="/">
+          <Navbar.Brand href="#home">
+            <img
+              alt=""
+              src="/logo.png"
+              width="30"
+              heightCursos="35"
+              className="d-inline-block align-top"
+            />
+            MUNDO TÉCNICO
+          </Navbar.Brand>
+        </Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="justify-content-end">
-            <Nav.Link href="#inicio">Inicio</Nav.Link>
+            <Nav.Link href="/">Inicio</Nav.Link>
             <Nav.Link href="#nosotros">Quienes Somos</Nav.Link>
             <Nav.Link href="#tienda">Tienda</Nav.Link>
             <NavDropdown title="Cursos" id="collasible-nav-dropdown">
@@ -34,7 +37,9 @@ function NavbarComponent() {
                 CURSO ELECTRÓNICA LINEA BLANCA
               </NavDropdown.Item>
             </NavDropdown>
-            <Button variant="outline-info">Iniciar Sesión</Button>
+            <Link style={{ textDecoration: "none" }} to="/login">
+              <Button variant="outline-info">Iniciar Sesión</Button>
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
