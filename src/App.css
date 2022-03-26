@@ -308,7 +308,7 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 
 .divNotFound{
   animation: glitch 1s linear infinite;
-  width: 90vw;
+  width: 100%;
 }
 
 @keyframes glitch{
