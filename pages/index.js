@@ -1,15 +1,5 @@
 import Head from "next/head";
-import styled from "styled-components";
-
-const UnderConstructionTitle = styled.p`
-    font-size: 5rem;
-    color: rgb(30, 217, 170);
-    margin-top: 4rem;
-
-    @media screen and (max-width: 1000px) {
-        font-size: 2.8rem;
-    }
-`;
+import { UnderConstructionTitle } from "../public/styles/index.styles";
 
 function Home() {
     const header = () => {
