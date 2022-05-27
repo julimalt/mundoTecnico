@@ -7,6 +7,7 @@ const animation = keyframes`
 `;
 
 export const UnderConstructionTitle = styled.div`
+    // font-family: "Big Shoulders Display", cursive;
     font-size: 5rem;
     margin-top: 4rem;
     animation: ${animation} 3s ease-out infinite;

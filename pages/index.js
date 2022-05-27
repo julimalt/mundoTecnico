@@ -29,7 +29,7 @@ function Home() {
                     }}
                 >
                     <img alt="Logo Mundo Técnico" src="/img/logo_nombre.png" style={{ maxHeight: "55vh" }} />
-                    <UnderConstructionTitle>#En construcción</UnderConstructionTitle>
+                    <UnderConstructionTitle>#EN CONSTRUCCIÓN</UnderConstructionTitle>
                 </div>
             </main>
         </div>
