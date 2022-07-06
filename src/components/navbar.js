@@ -3,7 +3,13 @@ import { Link } from "react-router-dom";
 
 function NavbarComponent() {
   return (
-    <Navbar collapseOnSelect expand="lg" variant="dark" sticky="top">
+    <Navbar
+      collapseOnSelect
+      expand="lg"
+      variant="dark"
+      sticky="top"
+      style={{ backgroundColor: "#212529" }}
+    >
       <Container>
         <Link style={{ textDecoration: "none" }} to="/">
           <Navbar.Brand href="#home">
@@ -20,10 +26,10 @@ function NavbarComponent() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="justify-content-end">
-            <Nav.Link href="/">Inicio</Nav.Link>
-            <Nav.Link href="#nosotros">Quienes Somos</Nav.Link>
-            <Nav.Link href="#tienda">Tienda</Nav.Link>
-            <NavDropdown title="Cursos" id="collasible-nav-dropdown">
+            {/* <Nav.Link href="/buildingSite">Inicio</Nav.Link> */}
+            {/* <Nav.Link href="#nosotros">Quienes Somos</Nav.Link> */}
+            {/* <Nav.Link href="#tienda">Tienda</Nav.Link> */}
+            {/* <NavDropdown title="Cursos" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">
                 CURSO DE REFRIGERACIÓN COMERCIAL
               </NavDropdown.Item>
@@ -36,10 +42,10 @@ function NavbarComponent() {
               <NavDropdown.Item href="#action/3.4">
                 CURSO ELECTRÓNICA LINEA BLANCA
               </NavDropdown.Item>
-            </NavDropdown>
-            <Link style={{ textDecoration: "none" }} to="/login">
+            </NavDropdown> */}
+            {/* <Link style={{ textDecoration: "none" }} to="/login">
               <Button variant="outline-info">Iniciar Sesión</Button>
-            </Link>
+            </Link> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

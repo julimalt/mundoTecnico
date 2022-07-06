@@ -10,12 +10,12 @@ import { Button } from "react-bootstrap";
 
 function Footer() {
   return (
-    <footer id="footer" class="footer-1">
-      <div class="main-footer widgets-dark typo-light">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-3">
-              <div class="widget subscribe no-box">
+    <footer id="footer" className="footer-1">
+      <div className="main-footer widgets-dark typo-light">
+        <div className="container">
+          <div className="row">
+            <div className="col-xs-12 col-sm-6 col-md-3">
+              <div className="widget subscribe no-box">
                 <img
                   alt=""
                   src="/logo.png"
@@ -26,34 +26,34 @@ function Footer() {
               </div>
             </div>
 
-            <div class="col-xs-12 col-sm-6 col-md-3">
-              <div class="widget no-box">
-                <h5 class="widget-title">
+            <div className="col-xs-12 col-sm-6 col-md-3">
+              <div className="widget no-box">
+                <h5 className="widget-title">
                   Menú<span></span>
                 </h5>
-                <ul class="thumbnail-widget">
+                <ul className="thumbnail-widget">
                   <li>
-                    <div class="thumb-content">
+                    <div className="thumb-content">
                       <a href="#.">Inicio</a>
                     </div>
                   </li>
-                  <li>
-                    <div class="thumb-content">
+                  {/* <li>
+                    <div className="thumb-content">
                       <a href="#.">Quienes somos</a>
                     </div>
-                  </li>
-                  <li>
-                    <div class="thumb-content">
+                  </li> */}
+                  {/* <li>
+                    <div className="thumb-content">
                       <a href="#.">Tienda</a>
                     </div>
-                  </li>
-                  <li>
-                    <div class="thumb-content">
+                  </li> */}
+                  {/* <li>
+                    <div className="thumb-content">
                       <a href="#.">Cursos</a>
                     </div>
-                  </li>
+                  </li> */}
                   <li>
-                    <div class="thumb-content">
+                    <div className="thumb-content">
                       <a href="#.">Contacto</a>
                     </div>
                   </li>
@@ -61,13 +61,12 @@ function Footer() {
               </div>
             </div>
 
-            <div class="col-xs-12 col-sm-6 col-md-3">
-              <div class="widget no-box">
+            <div className="col-xs-12 col-sm-6 col-md-3">
+              <div className="widget no-box">
                 <Link style={{ textDecoration: "none" }} to="/contacto">
                   <Button
-                    variant="outline-info"
                     size="lg"
-                    className="button d-block mx-auto"
+                    className="button d-block mx-auto botones"
                     style={{ marginTop: "3em" }}
                   >
                     Contactanos!
@@ -76,17 +75,17 @@ function Footer() {
               </div>
             </div>
 
-            <div class="col-xs-12 col-sm-6 col-md-3">
-              <div class="widget no-box">
-                <h5 class="widget-title">
+            <div className="col-xs-12 col-sm-6 col-md-3">
+              <div className="widget no-box">
+                <h5 className="widget-title">
                   Contacto<span></span>
                 </h5>
 
                 <p>+54 11-3398-0818</p>
                 <p>Av. Jonte 5378</p>
                 <p>Villa del Parque, CABA</p>
-                <ul class="social-footer2">
-                  <li class="">
+                <ul className="social-footer2">
+                  <li className="">
                     <a
                       title="youtube"
                       target="_blank"
@@ -96,7 +95,7 @@ function Footer() {
                       <GrYoutube />
                     </a>
                   </li>
-                  <li class="">
+                  <li className="">
                     <a
                       href="https://www.facebook.com/emete.mt.10"
                       target="_blank"
@@ -106,7 +105,7 @@ function Footer() {
                       <GrFacebookOption />
                     </a>
                   </li>
-                  <li class="">
+                  <li className="">
                     <a
                       href="https://twitter.com"
                       target="_blank"
@@ -116,7 +115,7 @@ function Footer() {
                       <GrTwitter />
                     </a>
                   </li>
-                  <li class="">
+                  <li className="">
                     <a
                       title="instagram"
                       target="_blank"
@@ -133,10 +132,10 @@ function Footer() {
         </div>
       </div>
 
-      <div class="footer-copyright">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 text-center">
+      <div className="footer-copyright">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12 text-center">
               <p>2023 BY MUNDOTECNICO. ALL RIGHTS RESERVED.</p>
             </div>
           </div>

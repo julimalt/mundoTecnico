@@ -14,9 +14,9 @@ function Intro() {
           </h5>
           <Link style={{ textDecoration: "none" }} to="/contacto">
             <Button
-              variant="outline-info"
+              // variant="outline-info"
               size="lg"
-              className="button d-block mx-auto"
+              className="button d-block mx-auto botones"
             >
               Contactanos!
             </Button>

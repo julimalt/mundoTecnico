@@ -9,15 +9,15 @@ import {
 function Formulario() {
   return (
     <section id="contact">
-      <h1 class="section-header">CONTACTANOS</h1>
+      <h1 className="section-header">CONTACTANOS</h1>
 
-      <div class="contact-wrapper">
-        <form id="contact-form" class="form-horizontal" role="form">
-          <div class="form-group">
-            <div class="col-sm-12">
+      <div className="contact-wrapper">
+        <form id="contact-form" className="form-horizontal" role="form">
+          <div className="form-group">
+            <div className="col-sm-12">
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 id="name"
                 placeholder="Nombre"
                 name="name"
@@ -27,11 +27,11 @@ function Formulario() {
             </div>
           </div>
 
-          <div class="form-group">
-            <div class="col-sm-12">
+          <div className="form-group">
+            <div className="col-sm-12">
               <input
                 type="email"
-                class="form-control"
+                className="form-control"
                 id="email"
                 placeholder="Email"
                 name="Email"
@@ -42,7 +42,7 @@ function Formulario() {
           </div>
 
           <textarea
-            class="form-control"
+            className="form-control"
             rows="10"
             placeholder="Mensaje"
             name="message"
@@ -50,7 +50,7 @@ function Formulario() {
           ></textarea>
 
           <button
-            class="btn btn-primary send-button"
+            className="btn btn-primary send-button"
             id="submit"
             type="submit"
             value="SEND"
@@ -59,17 +59,17 @@ function Formulario() {
           </button>
         </form>
 
-        <div class="direct-contact-container">
-          <ul class="contact-list">
-            <li class="list-item">
-              <i class="fa fa-map-marker fa-2x">
-                <span class="contact-text place">Av. Jonte 5378, CABA</span>
+        <div className="direct-contact-container">
+          <ul className="contact-list">
+            <li className="list-item">
+              <i className="fa fa-map-marker fa-2x">
+                <span className="contact-text place">Av. Jonte 5378, CABA</span>
               </i>
             </li>
 
-            <li class="list-item">
-              <i class="fa fa-phone fa-2x">
-                <span class="contact-text phone">
+            <li className="list-item">
+              <i className="fa fa-phone fa-2x">
+                <span className="contact-text phone">
                   <a href="tel:+54 11-3398-0818" title="Give me a call">
                     +54 11-3398-0818
                   </a>
@@ -77,9 +77,9 @@ function Formulario() {
               </i>
             </li>
 
-            <li class="list-item">
-              <i class="fa fa-envelope fa-2x">
-                <span class="contact-text gmail">
+            <li className="list-item">
+              <i className="fa fa-envelope fa-2x">
+                <span className="contact-text gmail">
                   <a
                     href="mailto:info@mundotecnico.com"
                     title="Send me an email"
@@ -91,12 +91,12 @@ function Formulario() {
             </li>
           </ul>
 
-          <ul class="social-media-list">
+          <ul className="social-media-list">
             <li>
               <a
                 href="https://www.instagram.com/"
                 target="_blank"
-                class="contact-icon"
+                className="contact-icon"
               >
                 <GrInstagram />
               </a>
@@ -105,7 +105,7 @@ function Formulario() {
               <a
                 href="https://twitter.com"
                 target="_blank"
-                class="contact-icon"
+                className="contact-icon"
               >
                 <GrTwitter />
               </a>
@@ -114,7 +114,7 @@ function Formulario() {
               <a
                 href="https://www.facebook.com/emete.mt.10"
                 target="_blank"
-                class="contact-icon"
+                className="contact-icon"
               >
                 <GrFacebookOption />
               </a>
@@ -123,14 +123,14 @@ function Formulario() {
               <a
                 href="https://www.youtube.com/"
                 target="_blank"
-                class="contact-icon"
+                className="contact-icon"
               >
                 <GrYoutube />
               </a>
             </li>
           </ul>
 
-          <div class="copyright">
+          <div className="copyright">
             &copy; 2023 BY MUNDOTECNICO. ALL RIGHTS RESERVED.
           </div>
         </div>

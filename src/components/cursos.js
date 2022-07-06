@@ -17,8 +17,8 @@ function Cursos() {
         />
         <Carousel.Caption>
           <h3 className="carousel-color">CURSO DE REFRIGERACIÓN COMERCIAL</h3>
-          <Link to="*">
-            <Button variant="outline-info" size="lg" className="button">
+          <Link to="/refrigeracionComercial">
+            <Button size="lg" className="button botones">
               Quiero saber más
             </Button>
           </Link>
