@@ -14,6 +14,10 @@ export default class CustomDocument extends Document {
                         href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100&display=swap"
                         rel="stylesheet"
                     />
+                    <link
+                        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
+                        rel="stylesheet"
+                    />
                 </Head>
                 <body style={{ height: "100%" }}>
                     <Main />
